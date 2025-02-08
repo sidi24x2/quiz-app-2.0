@@ -1,0 +1,114 @@
+// Designing Colors
+
+$primary: #ffe5dc;
+$secondary: #c77254;
+$ternary: #fff0e8;
+
+// HEadings
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 1.75rem;
+  line-height: 1.4;
+}
+
+h4 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+h5 {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+h6 {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.text-center h1,
+.text-center h2,
+.text-center h3 {
+  text-align: center;
+}
+
+// Containers
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: $primary;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.start {
+  justify-content: start;
+}
+.center {
+  justify-content: center;
+}
+
+header,
+footer {
+  background-color: #fff;
+  right: 0;
+  left: 0;
+  nav {
+    a {
+      // font-size: ;
+      padding: 0.5rem;
+      margin-left: 0.5rem;
+      border-radius: 0.5rem;
+      border: none;
+      color: $secondary;
+      text-decoration: none;
+      border: 1px solid $secondary;
+      &:hover {
+        color: $ternary;
+        background-color: $secondary;
+        border: 1px solid $primary;
+      }
+    }
+  }
+}
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+main {
+  margin: 1.5rem 0;
+  margin-bottom: 4rem;
+}

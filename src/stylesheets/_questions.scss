@@ -1,0 +1,105 @@
+$primary: #ffe5dc;
+$secondary: #c77254;
+$ternary: #fff0e8;
+
+span {
+  color: #ebebeb;
+  margin: 0 0.5rem;
+}
+.questionContainer {
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba(black, 0.2);
+  margin: 2rem;
+  color: $secondary;
+  border: 0.5rem white solid;
+  border-radius: 1.5rem;
+
+  padding: 1.5rem;
+  width: 900px;
+  margin: 0 auto;
+
+  label {
+    display: block;
+    padding: 1rem;
+    width: 100%;
+    margin: 0.5rem 0;
+    border-radius: 0.8rem;
+    align-items: center;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    &:hover {
+      color: $primary;
+      background-color: $secondary;
+    }
+  }
+  button {
+    border-radius: 0.8rem;
+    cursor: pointer;
+    border: none;
+    padding: 1rem;
+    // text-align: center;
+    color: beige;
+    background-color: $secondary;
+    width: 20%;
+    &:disabled {
+      background-color: $ternary;
+      color: black;
+      cursor: not-allowed;
+    }
+  }
+  .correct {
+    background-color: green;
+    color: white;
+    &:hover {
+      color: white;
+      background-color: green;
+    }
+  }
+  .incorrect {
+    background-color: rgb(255, 0, 0);
+    color: white;
+  }
+}
+
+.start {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background-color: $secondary;
+  color: white;
+  cursor: pointer;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
+.progress-bar {
+  width: 100%;
+  padding: 0.2rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  transition: all linear ease-in-out 5s;
+  background: linear-gradient(
+    to left,
+    rgb(207, 214, 207),
+    rgb(198, 230, 171),
+    rgb(85, 161, 85)
+  );
+  &:hover {
+    background: linear-gradient(
+      to right,
+      rgb(80, 163, 80),
+      rgb(174, 232, 127),
+      rgb(140, 202, 140)
+    );
+  }
+}
+
+.progress-bar-filled {
+  width: 0%;
+  height: 10px;
+  background-color: $secondary;
+  transition: width 0.3s;
+}

@@ -1,0 +1,58 @@
+table {
+  width: 90%;
+  margin: 2rem auto;
+  border-collapse: collapse;
+}
+thead {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+th,
+td {
+  border: 1px solid;
+  padding: 1rem;
+  line-height: 1rem;
+  word-break: keep-all;
+  line-height: 1.5rem;
+}
+th {
+  background-color: #c77254;
+  color: white;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #fff0e8;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffe5dc;
+}
+
+.wrong-answer {
+  background-color: #ffdddd; /* Light Red */
+}
+.right-answer {
+  background-color: rgb(215, 241, 215);
+}
+tbody {
+  background-color: #c77254;
+  font-weight: bold;
+}
+
+@keyframes countUp {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.final-score {
+  font-size: 24px;
+  font-weight: bold;
+  animation: countUp 1s ease-out;
+}

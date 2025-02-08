@@ -1,0 +1,18 @@
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 10px;
+  }
+  .container {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 0.5rem;
+  }
+  .questionContainer,
+  table {
+    margin-top: 1rem;
+    max-width: 300px;
+    button {
+      padding: 0.5rem;
+    }
+  }
+}
