@@ -54,5 +54,16 @@ Questions and Answers getting shuffled Everytime.
 Dark Mode
 
 ## Screenshots
+![Screenshot 2025-02-07 143649](https://github.com/user-attachments/assets/c4e4f644-7e68-4aed-944c-efb39dcb0d0d)
 
-![alt text](<Screenshot 2025-02-07 143649.png>) ![alt text](<Screenshot 2025-02-07 233907.png>) ![alt text](<Screenshot 2025-02-07 225653.png>) ![alt text](<Screenshot 2025-02-07 225314.png>) ![alt text](<Screenshot 2025-02-07 223826.png>)
+![Screenshot 2025-02-08 014755](https://github.com/user-attachments/assets/044203a8-d695-4e4c-b368-3b1f2e649ab0)
+![Screenshot 2025-02-07 223826](https://github.com/user-attachments/assets/b0bfe159-534b-42c4-8c70-34f5798cd136)
+![Screenshot 2025-02-07 225314](https://github.com/user-attachments/assets/1ee55dac-f59a-406f-a259-38004b4e0706)
+![Screenshot 2025-02-07 225653](https://github.com/user-attachments/assets/88c8fe87-99d8-433d-b624-bad193c530ad)
+
+## video
+
+
+https://github.com/user-attachments/assets/1d02d1fd-21fc-446c-97f2-7797bb1f9419
+
+
